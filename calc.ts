@@ -1,4 +1,4 @@
-type Money = {
+export type Money = {
   amount: number
   isDamaged: boolean
   unit: string
@@ -49,7 +49,7 @@ export const calc = (monies: Money[]): Result => {
 }
 
 
-export const input: Money[] = [
+const input: Money[] = [
   {
     amount: 100,
     isDamaged: false,
