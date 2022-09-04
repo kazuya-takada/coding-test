@@ -61,17 +61,17 @@ export const input: Money[] = [
     unit: '円'
   },
   {
-    amount: 200,
+    amount: 500,
     isDamaged: true,
     unit: '円'
   },
   {
-    amount: 300,
+    amount: 1,
     isDamaged: false,
     unit: 'ドル'
   },
   {
-    amount: 400,
+    amount: 10,
     isDamaged: true,
     unit: 'ウォン'
   },
